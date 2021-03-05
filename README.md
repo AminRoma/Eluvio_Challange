@@ -27,7 +27,7 @@ from sklearn.tree import DecisionTreeRegressor
 
 ### Data preparation and preprocessing
 
-All the .pkl files are put in my google drive. We use a for loop to load .pkl files and load them one by one to data frames. The data frame is updated for each movie and merges all the features stored in tensors to be processed one by one for predictions.  
+All the .pkl files are put in my google drive. For checking the code, please use the path of a folder that containts all of the .pkl files inside the os.path.join() function. We use a for loop to load .pkl files and load them one by one to data frames. The data frame is updated for each movie and merges all the features stored in tensors to be processed one by one for predictions.  
 
 ```python
 drive.mount('/content/drive')
